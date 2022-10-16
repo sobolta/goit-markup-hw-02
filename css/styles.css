@@ -141,6 +141,7 @@ img {
 }
 
 .site-nav .link {
+
 }
 
 .link {
@@ -182,8 +183,8 @@ img {
     color: var(--accent-color);
 }
 
-.links-contacts.current:hover,
-.links-contacts:focus {
+.link.current,
+.links-contacts.current {
     color: var(--accent-color);
 }
 
