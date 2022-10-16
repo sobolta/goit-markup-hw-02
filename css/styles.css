@@ -336,6 +336,7 @@ img {
 .btn-portfolio {
     /* display: inline-block; */
     padding: 6px 22px;
+    /* border: transparent; */
     border-radius: 4px;
     border-color: transparent;
     background-color: var(--buttons-port-color);
