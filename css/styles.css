@@ -9,7 +9,7 @@
     --owner-text-color: #757575;
     --contener-color: #eeeeee;
     --buttons-port-color: #f5f4fa;
-    --footer-text-color: rgba(255, 255, 255, -0.6);
+    --footer-text-color: rgba(255, 255, 255, 0.6);
     --background-footer-color: #2f303a;
     --background--section: #e5e5e5;
     --line-color: #ececec;
@@ -334,11 +334,11 @@ img {
 /* ------------------Страница портфолио-------------------- */
 /*------------------- Секция проектов---------------------  */
 .btn-portfolio {
-    display: inline-block;
+    /* display: inline-block; */
     padding: 6px 22px;
-    border: none;
+    /* border: none; */
     border-radius: 4px;
-
+    border-color: transparent;
     background-color: var(--buttons-port-color);
     color: var(--main-text-color);
     font-family: inherit;
@@ -435,7 +435,7 @@ img {
     color: var(--owner-text-color);
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
 }
 
 .logo-footer {
@@ -447,7 +447,7 @@ img {
 }
 
 .address-footer {
-    color: var(footer-text-color);
+    color: var(--footer-text-color);
     line-height: 1.7;
     font-style: normal;
 }
